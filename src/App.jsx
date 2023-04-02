@@ -15,8 +15,6 @@ const App = () => {
       toast.error(error.message);
     }
   };
-  // toast.error("error");
-  // toast.success("success");
   return (
     <main>
       <ToastContainer position="top-center" />
